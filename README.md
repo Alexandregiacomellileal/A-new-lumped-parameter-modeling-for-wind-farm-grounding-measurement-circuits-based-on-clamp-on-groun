@@ -10,3 +10,4 @@ In this study, turbine ground resistance readings in a typical wind farm are tak
 field modeling. Taking the electromagnetic model as standard, the results demonstrate that the proposed solution was able to accurately estimate
 the performance of a wind farm grounding system.
 
+The attached file called "EPSR_article.xls" contains spreadsheets with the results of the computational simulations used in the research.
