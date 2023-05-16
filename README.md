@@ -12,6 +12,7 @@ the performance of a wind farm grounding system.
 
 The attached file called "EPSR_article.xls" contains spreadsheets loaded with the results of both computer simulation models used in the research.
 
-The attached file named "case_study_simulation.mph" is the COMSOL Multiphysics model file used for the computer simulation of the case study through its electromagnetic field modeling. 
+
+The attached file named "case_study_simulation.mph" is the COMSOL Multiphysics model file used for the computer simulation of the case study through its electromagnetic field modeling referring to Section 3 of the article. This .mph file can also be used to survey the k parameter according to item 4 of the article, simply making changes to the electrodes' geometry and spacing between them.
 
 End of this document.
