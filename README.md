@@ -15,7 +15,7 @@ The second one, called "Results of Section 4", contains the input and output dat
 
 The attached file named "case_study_simulation.mph" is the COMSOL Multiphysics model file used for the computer simulation of the case study through its electromagnetic field modeling according to Section 3 of the article. This ".mph file" can also be used to survey the k parameter according to item 4 of the article, simply making changes to the electrodes' geometry and spacing between them. 
 
-The attached file named "fig2" shows the design schematic representation of the grounding of the case study containing three groundings of wind turbines spaced 300 meters from their neighbors and interconnected by horizontal electrodes.
+The attached file named "fig2" shows the design schematic representation of the case study grounding system containing three groundings of wind turbines spaced 300 meters from their neighbors and interconnected by horizontal electrodes, as well as the location of instalation of the clamp-on ground meter used to evaluate the grounding resistance of the turbine of interest.
 
 The attached file named "fig3" presents the equivalent measurement circuit of the case study modeled by lumped parameters, in which, Rf corresponds to the turbine grounding resistance (Ω), Zs is the horizontal electrodes' self-impedance (Ω), and Rp is the horizontal electrodes grounding resistance (Ω). Furthermore, a resistance Rc (Ω) and an adjustment parameter k were added to the lumped-parameter model to represent the impact of mutual resistance between the grounding elements and mitigate distortions due to modeling.
 
