@@ -1,4 +1,3 @@
-# A-new-lumped-parameter-modeling-to-evaluate-the-performance-of-wind-farm-grounding-systems
 A new lumped parameter modeling for wind farm grounding measurement circuits based on clamp-on ground meters.
 
 This is the file folder for the article titled: A new lumped parameter modeling for wind farm grounding measurement circuits based on clamp-on ground meters
