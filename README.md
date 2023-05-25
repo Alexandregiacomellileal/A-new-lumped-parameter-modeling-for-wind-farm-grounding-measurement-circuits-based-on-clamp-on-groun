@@ -8,7 +8,7 @@ the clamp-on ground meter. Furthermore, it proposes a new lumped parameter model
 In this study, turbine ground resistance readings in a typical wind farm are taken by computer simulation using lumped parameter modeling and electromagnetic
 field modeling. Taking the electromagnetic model as standard, the results demonstrate that the proposed solution was able to accurately estimate the wind turbine grounding resistance in a typical wind farm.
 
-The attached file called "Results_GITHUB_FINAL.xlsx" contains two spreadsheets:
+The attached file called "Paper_results.xlsx" contains two spreadsheets:
 The first one, called "Results of Section 3", contains the input parameters of both computer simulation models for the study case, as well as the results obtained.
 The second one, called "Results of Section 4", contains the input and output data used to survey the case study`s parameter k through electromagnetic modeling by COMSOL Multiphysics.
 
