@@ -1,7 +1,7 @@
 A new lumped parameter modeling for wind farm grounding measurement circuits based on clamp-on ground meters.
 
 This is the file folder for the article titled: A new lumped parameter modeling for wind farm grounding measurement circuits based on clamp-on ground meters
-, recently submitted to the Electrical Power Systems Research journal (ELSEVIER).
+, recently submitted to the Journal of Control, Automation and Electrical Systems - Springer Nature.
 
 This article addresses the impact of mutual impedance between grounding elements in measuring the grounding resistance of wind turbines using
 the clamp-on ground meter. Furthermore, it proposes a new lumped parameter model for wind farm grounding to include the representation of such effects.
