@@ -1,12 +1,10 @@
-A new lumped parameter modeling for wind farm grounding measurement circuits based on clamp-on ground meters.
+## A new lumped parameter modeling for wind farm grounding measurement circuits based on clamp-on ground meters.
 
-This is the file folder for the article titled: A new lumped parameter modeling for wind farm grounding measurement circuits based on clamp-on ground meters
-, recently submitted to the Journal of Control, Automation and Electrical Systems - Springer Nature.
+### Overview
 
-This article addresses the impact of mutual impedance between grounding elements in measuring the grounding resistance of wind turbines using
-the clamp-on ground meter. Furthermore, it proposes a new lumped parameter model for wind farm grounding to include the representation of such effects.
-In this study, turbine ground resistance readings in a typical wind farm are taken by computer simulation using lumped parameter modeling and electromagnetic
-field modeling. Taking the electromagnetic model as standard, The simulation results demonstrate that the proposed solution could accurately estimate the impedance of the measuring loop in a wind farm grounding system.
+This is the file folder for the article titled: A new lumped parameter modeling for wind farm grounding measurement circuits based on clamp-on ground meters, recently submitted to the _Journal of Control, Automation and Electrical Systems - Springer Nature_. This article addresses the impact of mutual impedance between grounding elements in measuring the grounding resistance of wind turbines using the clamp-on ground meter. Furthermore, it proposes a new lumped parameter model for wind farm grounding to include the representation of such effects. In this study, turbine ground resistance readings in a typical wind farm are taken by computer simulation using lumped parameter modeling and electromagnetic field modeling. Taking the electromagnetic model as standard, The simulation results demonstrate that the proposed solution could accurately estimate the impedance of the measuring loop in a wind farm grounding system.
+
+### Files
 
 The attached file called "Paper_results.xlsx" contains two spreadsheets:
 The first one, called "Results of Section 3", contains the input parameters of both computer simulation models for the study case, as well as the results obtained.
@@ -26,4 +24,12 @@ The attached file named "fig5.pdf" shows the schematic representation of the gro
 
 The attached file called "fig6.pdf" shows an image of the discretization mesh of the case study model built in COMSOL. In the discretization step of the finite element method used by COMSOL, extra-fine meshes with edge refinement are composed of tetrahedral elements.
 
-End of this document.
+________________________________________________________________________________________________________________________
+
+### Contact us:
+Please send an email to: alexgiacomelli@yahoo.com
+
+________________________________________________________________________________________________________________________
+
+### Contributors:
+Federal University of Technology – Parana (UTFPR) and Institute of Technology for Development (LACTEC)
