@@ -16,30 +16,6 @@ The research article addresses:
 
 ### Results
 
-# Table 1 -  Clamp-on Ground Meter Readings
-
-This table presents clamp-on ground meter readings for different resistivity values.
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Table](#table)
-
-## Introduction
-
-The table includes readings for various resistivity values, denoted by $\rho$.
-
-## Table
-
-```markdown
-| $\rho (\Omega \cdot m)$ | $Zmed_{EFM} (\Omega)$ | $Zmed_{LPM} (\Omega)$ | $Zmed_{LPM} (\Omega)$ (Proposed) | $APE_{LPM}$ (%) | $APE_{LPM}$ (Proposed) |
-|-------------------------|------------------------|------------------------|----------------------------------|------------------|------------------------|
-| 100                     | 1.2595                 | 1.9680                 | 1.3889                           | 56.25            | **10.27**              |
-| 300                     | 3.6514                 | 5.2158                 | 3.8231                           | 42.84            | **4.70**               |
-| 5252                    | 59.9238                | 76.0800                | 60.0900                          | 26.96            | **0.28**               |
-| 10240                   | 116.7997               | 149.5900               | 117.0800                         | 28.07            | **0.24**               |
-| 5252/300                | 5.3788                 | 6.6738                 | 5.9100                           | 24.08            | **9.88**               |
-
-
 ### Files
 
 - [[Paper_results.xlsx](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/blob/main/Paper_results.xlsx)]: Excel file comprising two spreadsheets: (i) "Results of Section 3" containing input parameters for both computer simulation models in the study case, along with the corresponding results, and (ii) "Results of Section 3.1" encompassing input and output data employed for investigating the parameter $k$ in the case study through electromagnetic modeling using COMSOL Multiphysics.
