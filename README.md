@@ -16,7 +16,7 @@ The research article addresses:
 
 ### Table results
 
-| $\rho (\Omega \cdot m)$ | $Zmed_{EFM} (\Omega)$ | $Zmed_{LPM} (\Omega)$ [^1] | $Zmed_{LPM} (\Omega)$ (Proposed) | $APE_{LPM}$ (%) | $APE_{LPM}$ (Proposed) |
+| $\rho (\Omega \cdot m)$ | $Zmed_{EFM} (\Omega)$ | $Zmed_{LPM} (\Omega)$ [^1] | $Zmed_{LPM} (\Omega)$ (Proposed) | $APE_{LPM}$  [^1] (%) | $APE_{LPM}$ (Proposed) |
 |-------------------------|------------------------|------------------------|----------------------------------|------------------|------------------------|
 | 100                     | 1.26                 | 1.97                 | 1.39                           | 56.25            | **10.27**              |
 | 300                     | 3.65                 | 5.21                | 3.82                           | 42.84            | **4.70**               |
