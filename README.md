@@ -15,11 +15,11 @@ The research article addresses:
 
 ### Files
 
-The attached file called "Paper_results.xlsx" [[Paper_results.xlsx](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/blob/main/Paper_results.xlsx)] contains two spreadsheets:
+The attached file [[Paper_results.xlsx](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/blob/main/Paper_results.xlsx)] contains two spreadsheets:
 The first one, called "Results of Section 3", contains the input parameters of both computer simulation models for the study case, as well as the results obtained.
 The second one, called "Results of Section 4", contains the input and output data used to survey the case study`s parameter k through electromagnetic modeling by COMSOL Multiphysics.
 
-The attached file named "case_study_COMSOL.mph" is the COMSOL Multiphysics model file used for the computer simulation of the case study through its electromagnetic field modeling according to Section 3 of the article. This ".mph file" can also be used to survey the k parameter according to item 4 of the article, simply making changes to the electrodes' geometry and spacing between them. 
+The attached file [[case_study_COMSOL.mph](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/blob/main/case_study_COMSOL.mph)] is the COMSOL Multiphysics model file used for the computer simulation of the case study through its electromagnetic field modeling according to Section 3 of the article. This ".mph file" can also be used to survey the k parameter according to item 4 of the article, simply making changes to the electrodes' geometry and spacing between them. 
 
 The attached file called "fig1.pdf" presents the equivalent circuit of the case study according to [33] and the proposed model.
 
