@@ -27,7 +27,6 @@ Where:
 
 This formula provides a measure of the percentage difference between the observed and standard values, allowing for an assessment of the accuracy of the electric circuit model.
 
-
 **Table 1: Comparison of Meter Readings**   
 | $\rho \ (\Omega \cdot m)$ | $Zmed_{EFM} (\Omega)$ | $Zmed_{LPM} (\Omega)$ [^1]| $Zmed_{LPM} (\Omega)$ (Proposed) | $APE_{LPM}$ (%) [^1]| $APE_{LPM}$  (%) (Proposed)|
 |---------------|------------------------|------------------------|----------------------------------|------------------|------------------------|
@@ -37,7 +36,7 @@ This formula provides a measure of the percentage difference between the observe
 | 10240           | 116.80            | 149.59              | 117.08                         | 28.07            | **0.24**               |
 | 5252/300          | 5.38           | 6.67               | 5.91                          | 24.08            | **9.88**               |
 
-Table 1 shows a good agreement of the results obtained between the proposed lumped-parameter model and the electromagnetic method. Considering homogeneous soil, the model could represent the behavior of the actual measurement circuit from the lowest to the highest apparent soil resistivity found in wind farms. The error was nearly zero for soils with high resistivities typically encountered in wind farms. For soil with a low resistivity of 100 $\Omega \cdot m$, the model yielded an Absolute Percent Error (APE) of 10.27\%, surpassing the performance of [^1] by 81.7\%. The simulation results demonstrate that the proposed solution can accurately estimate the low-frequency impedance of the measuring loop, with an average error of 85.8\% lower than the model used in [^1].
+Table 1 illustrates a robust agreement in the outcomes obtained between the proposed lumped-parameter model and the electromagnetic method. When considering homogeneous soil, the model adeptly captures the behavior of the actual measurement circuit across a spectrum of apparent soil resistivity, spanning from the lowest to the highest values encountered in wind farms. Notably, the error approached zero for soils characterized by high resistivities, a common scenario in wind farm environments. The simulation results demonstrate that the proposed solution excels in accurately estimating the low-frequency impedance of the measuring loop. On average, the proposed model exhibits an error rate that is 85.8% lower compared to the model used in [^1].
 
 ### Files
 
