@@ -14,6 +14,31 @@ The research article addresses:
 - Simulation of turbine ground resistance readings through lumped parameter modeling and electromagnetic field modeling.
 - Demonstration of the accuracy of the proposed solution in estimating the impedance of the measuring loop in a wind farm grounding system.
 
+### Results
+
+# Table 1 -  Clamp-on Ground Meter Readings
+
+This table presents clamp-on ground meter readings for different resistivity values.
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Table](#table)
+
+## Introduction
+
+The table includes readings for various resistivity values, denoted by $\rho$.
+
+## Table
+
+```markdown
+| $\rho (\Omega \cdot m)$ | $Zmed_{EFM} (\Omega)$ | $Zmed_{LPM} (\Omega)$ | $Zmed_{LPM} (\Omega)$ (Proposed) | $APE_{LPM}$ (%) | $APE_{LPM}$ (Proposed) |
+|-------------------------|------------------------|------------------------|----------------------------------|------------------|------------------------|
+| 100                     | 1.2595                 | 1.9680                 | 1.3889                           | 56.25            | **10.27**              |
+| 300                     | 3.6514                 | 5.2158                 | 3.8231                           | 42.84            | **4.70**               |
+| 5252                    | 59.9238                | 76.0800                | 60.0900                          | 26.96            | **0.28**               |
+| 10240                   | 116.7997               | 149.5900               | 117.0800                         | 28.07            | **0.24**               |
+| 5252/300                | 5.3788                 | 6.6738                 | 5.9100                           | 24.08            | **9.88**               |
+
 
 ### Files
 
