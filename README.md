@@ -1,5 +1,7 @@
 ## A new lumped parameter modeling for wind farm grounding measurement circuits based on clamp-on ground meters.
 
+![LPM_030124](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/8d954103-29a1-4242-98d2-3fbf0e1f7c86)
+
 ### Overview
 
 Welcome to the repository for the research article titled "A New Lumped Parameter Modeling for Wind Farm Grounding Measurement Circuits Based on Clamp-On Ground Meters," recently submitted to the Journal of Control, Automation and Electrical Systems - Springer Nature. This work delves into the impact of mutual impedance between grounding elements when measuring the grounding resistance of wind turbines using clamp-on ground meters. The repository provides files and resources related to the study, including simulation models, results, and visual representations.
