@@ -32,8 +32,6 @@ The lumped parameter model for the measurement of Figure 1 was established and s
 **Figure 2**     
 <img width="530" alt="image" src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/945ccf5b-8f38-42bc-9132-75278704b092">
 
-
-
 ### $k$ Parameter Estimation
 
 In our quest to mitigate the impact of mutual coupling in measurements and address distortions arising from the utilization of an equivalent semi-spherical representation of the horizontal electrode, we are engaged in refining the estimation process. Our focus is on enhancing accuracy and reliability by systematically assessing and adjusting the parameters involved in the measurement system.
@@ -41,7 +39,7 @@ In our quest to mitigate the impact of mutual coupling in measurements and addre
 According to Section 3.1 of the associated research article, the parameter k was estimated to be 0.7 for a distance between the turbine grounding and the adjacent horizontal electrode of 11.4 m (defined as $s$).
 In instances where simulation software is unavailable for researching the parameter in the measuring circuit, the attached graph of Figure 3 serves as a valuable tool for estimating it according to the distance between the grounding elements. This estimate is particularly relevant in cases where the grounding configuration involves cylindrical-shaped turbine foundations with multiple driven pillars, constructed of reinforced concrete, and horizontal electrodes.
 
-**Figure 3** 
+**Figure 3**       
 <img src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/defc7caa-dfa5-4450-b958-91beb23f02a1" width="500" height="375">
 
 
