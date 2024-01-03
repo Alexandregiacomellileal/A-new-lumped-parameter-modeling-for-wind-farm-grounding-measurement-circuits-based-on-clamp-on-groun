@@ -14,6 +14,16 @@ The research article addresses:
 - Simulation of turbine ground resistance readings through lumped parameter modeling and electromagnetic field modeling.
 - Demonstration of the accuracy of the proposed solution in estimating the impedance of the measuring loop in a wind farm grounding system.
 
+### Case study
+
+A grounding section of the São Bento Wind Complex (SBC) located in northeastern Brazil was chosen to present and validate the proposed model. Figure 1 shows the grounding of the case study containing three wind turbines interconnected by horizontal electrodes of 300 m. Such a grounding represents a typical section of a conventional wind farm grounding system. The grounding of the turbine consists of a reinforced concrete foundation and bare copper wires and has an approximately cylindrical shape with a radius of 7.88 m and a height of 17.2 m. The horizontal electrodes consist of a 300 m long bare copper wire with a cross-section of 95 mm$^2$, buried at a depth of 1 m. The horizontal electrode wires are drawn into the turbine tower through an insulated conduit and connected to the main earth bonding bar. The closest distance between the turbine grounding edge and the horizontal electrodes is 11.4 m.
+
+Fig 1
+![fig2_alt](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/87161e42-e7d9-4699-a4cc-77c3864decb0)
+
+
+The instrument chosen for the case study was a UT278A clamp-on meter whose induced voltage signal in the measurement circuit has a sinusoidal waveform with a constant amplitude of 0.028 V and a frequency of 1572 Hz. This work will consider that the case study grounding system can be installed in different homogeneous soils with a low-frequency resistivity $\rho$ of 100, 300, 5252, and 10240 $\Omega \cdot m$. Additionally, it will be evaluated its installation in a typical two-layer soil with a resistivity of 5252 $\Omega \cdot m$ in the first five meters of depth and 300 $\Omega \cdot m$ in the deepest layer. The relative permeability and permittivity of the soil were assumed to be constant and equal to 1 and 9, respectively. 
+
 ### Results
 
 Table 1 compares the meter readings $Zmed_{LPM}$ obtained by means of lumped parameter modeling used in [^1], with those proposed in this paper. Table 1 also presents the values of the readings obtained through Computational Electromagnetic Modeling using COMSOL $Zmed_{EFM}$. The measurement circuit was simulated under different homogeneous soil with a low-frequency resistivity of 100, 300, 5252, and 10240  $\Omega \cdot m$. A computer simulation was also carried out using a typical two-layer soil with a resistivity of 5252  $\Omega \cdot m$ in the first five meters of depth and 300  $\Omega \cdot m$ on the deeper layer. The results obtained by the computational simulation of the electromagnetic model of the case study were not significantly affected by the variation between 1 and 10 of the relative permittivity of the soil, so we assume that its value is constant and equal to 9 in this study. In the context of electric circuit modeling, the expected absolute percentage error ($APE_{LPM}$) is calculated based on the standard $Zmed_{EFM}$. The formula for calculating $APE_{LPM}$ (%) is given by:
