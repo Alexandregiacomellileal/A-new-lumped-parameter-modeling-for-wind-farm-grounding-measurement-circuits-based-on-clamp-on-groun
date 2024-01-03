@@ -42,7 +42,7 @@ According to Section 3.1 of the associated research article, the parameter k was
 In instances where simulation software is unavailable for researching the parameter in the measuring circuit, the attached graph of Figure 3 serves as a valuable tool for estimating it according to the distance between the grounding elements. This estimate is particularly relevant in cases where the grounding configuration involves cylindrical-shaped turbine foundations with multiple driven pillars, constructed of reinforced concrete, and horizontal electrodes.
 
 **Figure 3** 
-<img src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/defc7caa-dfa5-4450-b958-91beb23f02a1" width="475" height="375">
+<img src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/defc7caa-dfa5-4450-b958-91beb23f02a1" width="500" height="375">
 
 
 ### Results
