@@ -22,7 +22,7 @@ The measurement circuit was simulated under different homogeneous soil with a lo
 
 In the context of electric circuit modeling, the expected absolute percentage error (`APE_{LPM}`) is calculated based on the standard `Zmed_{EFM}`. The formula for calculating `APE_{LPM}` is given by:
 
-$\[ APE_{LPM} (\%) = \left| \frac{{Zmed_{LPM} - Zmed_{EFM}}}{{Zmed_{EFM}}} \right| \times 100 \]$
+$\ APE_{LPM} (\%) = \left| \frac{{Zmed_{LPM} - Zmed_{EFM}}}{{Zmed_{EFM}}} \right| \times 100 \$
 
 Where:
 - `APE_{LPM}` is the expected absolute percentage error for the electric circuit modeling.
