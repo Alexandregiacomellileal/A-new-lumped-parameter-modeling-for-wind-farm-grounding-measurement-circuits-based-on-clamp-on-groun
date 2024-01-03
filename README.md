@@ -14,8 +14,19 @@ The research article addresses:
 - Simulation of turbine ground resistance readings through lumped parameter modeling and electromagnetic field modeling.
 - Demonstration of the accuracy of the proposed solution in estimating the impedance of the measuring loop in a wind farm grounding system.
 
-### Table results
+### Results
 
+The table 1 compares the meter readings $Zmed_{LPM}$ obtained by means of lumped parameter modeling used in [^1], with those proposed in this paper. Table 1 also presents the values of the readings obtained through Computational Electromagnetic Modeling using COMSOL $Zmed_{EFM}$.
+
+The measurement circuit was simulated under different homogeneous soil with a low-frequency resistivity of 100, 300, 5252, and 10240  $\Omega \cdot m$. A computer simulation was also carried out using a typical two-layer soil with a resistivity of 5252  $\Omega \cdot m$ in the first five meters of depth and 300  $\Omega \cdot m$ on the deeper layer. The results obtained by the computational simulation of the electromagnetic model of the case study were not significantly affected by the variation between 1 and 10 of the relative permittivity of the soil, so we assume that its value is constant and equal to 9 in this study. Taking $Zmed_{EFM}$ as a standard, the electric circuit modeling expected absolute percentage error ${APE}_{LPM} (\%)$ is calculated as:
+\begin{equation}
+{APE}_{LPM} = \left |\ \frac{{{Zmed}_{LPM}\ -\ \ Zmed}_{EFM}}{{Zmed}_{EFM}}  \right | \times 100,
+\label{eq:eqrf6}
+\end{equation}
+
+Table 1 shows a good agreement of the results obtained between the proposed lumped-parameter model and the electromagnetic method. Considering homogeneous soil, the model could represent the behavior of the actual measurement circuit from the lowest to the highest apparent soil resistivity found in wind farms. The error was nearly zero for soils with high resistivities typically encountered in wind farms. For soil with a low resistivity of 100 $\Omega \cdot m$, the model yielded an Absolute Percent Error (APE) of 10.27\%, surpassing the performance of [^1] by 81.7\%. The simulation results demonstrate that the proposed solution can accurately estimate the low-frequency impedance of the measuring loop, with an average error of 85.8\% lower than the model used in [^1].
+
+**Table 1**   
 | $\rho \ (\Omega \cdot m)$ | $Zmed_{EFM} (\Omega)$ | $Zmed_{LPM} (\Omega)$ [^1]| $Zmed_{LPM} (\Omega)$ (Proposed) | $APE_{LPM}$ (%) [^1]| $APE_{LPM}$  (%) (Proposed)|
 |---------------|------------------------|------------------------|----------------------------------|------------------|------------------------|
 | 100             | 1.26              | 1.97                | 1.38                       | 56.25            | **10.27**              |
