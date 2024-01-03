@@ -16,7 +16,7 @@ The research article addresses:
 
 ### Case study
 
-A grounding section of the São Bento Wind Complex (SBC) located in northeastern Brazil was chosen to present and validate the proposed model. Figure 1 shows the grounding of the case study containing three wind turbines interconnected by horizontal electrodes of 300 m. Such a grounding represents a typical section of a conventional wind farm grounding system. The grounding of the turbine consists of a reinforced concrete foundation and bare copper wires and has an approximately cylindrical shape with a radius of 7.88 m and a height of 17.2 m. The horizontal electrodes consist of a 300 m long bare copper wire with a cross-section of $95 mm^2$, buried at a depth of 1 m. The horizontal electrode wires are drawn into the turbine tower through an insulated conduit and connected to the main earth bonding bar. The closest distance between the turbine grounding edge and the horizontal electrodes is 11.4 m.
+A grounding section of the São Bento Wind Complex (SBC) located in northeastern Brazil was chosen to present and validate the proposed model. Figure 1 shows the grounding of the case study containing three wind turbines interconnected by horizontal electrodes of 300 m. Such a grounding represents a typical section of a conventional wind farm grounding system. The grounding of the turbine consists of a reinforced concrete foundation and bare copper wires and has an approximately cylindrical shape with a radius of 7.88 m and a height of 17.2 m. The horizontal electrodes consist of a 300 m long bare copper wire with a cross-section of $95 mm^2$, buried at a depth of 1 m. The horizontal electrode wires are drawn into the turbine tower through an insulated conduit and connected to the main earth bonding bar. The closest distance $s$ between the turbine grounding edge and the horizontal electrodes is 11.4 m.
 
 **Figure 1**      
 <img src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/87161e42-e7d9-4699-a4cc-77c3864decb0" width="500" height="375">
@@ -31,7 +31,7 @@ The electrical circuit for the measurements was established and simulated in ATP
 
 In our quest to mitigate the impact of mutual coupling in measurements and address distortions arising from the utilization of an equivalent semi-spherical representation of the horizontal electrode, we are engaged in refining the estimation process. Our focus is on enhancing accuracy and reliability by systematically assessing and adjusting the parameters involved in the measurement system.
 
-According to Section 3.1 of the associated research article, the parameter k was estimated to be 0.7 for a distance between the turbine grounding and the adjacent horizontal electrode of 22 cm (defined as $s$).
+According to Section 3.1 of the associated research article, the parameter k was estimated to be 0.7 for a distance between the turbine grounding and the adjacent horizontal electrode of 11.4 m (defined as $s$).
 
 ### Results
 
