@@ -20,6 +20,18 @@ The table 1 compares the meter readings $Zmed_{LPM}$ obtained by means of lumped
 
 The measurement circuit was simulated under different homogeneous soil with a low-frequency resistivity of 100, 300, 5252, and 10240  $\Omega \cdot m$. A computer simulation was also carried out using a typical two-layer soil with a resistivity of 5252  $\Omega \cdot m$ in the first five meters of depth and 300  $\Omega \cdot m$ on the deeper layer. The results obtained by the computational simulation of the electromagnetic model of the case study were not significantly affected by the variation between 1 and 10 of the relative permittivity of the soil, so we assume that its value is constant and equal to 9 in this study. Taking $Zmed_{EFM}$ as a standard, the electric circuit modeling expected absolute percentage error ${APE}_{LPM} (\%)$ is calculated as {APE}_{LPM} = \left |\ \frac{{{Zmed}_{LPM}\ -\ \ Zmed}_{EFM}}{{Zmed}_{EFM}}  \right | \times 100.
 
+In the context of electric circuit modeling, the expected absolute percentage error (`APE_{LPM}`) is calculated based on the standard `Zmed_{EFM}`. The formula for calculating `APE_{LPM}` is given by:
+
+\[ APE_{LPM} (\%) = \left| \frac{{Zmed_{LPM} - Zmed_{EFM}}}{{Zmed_{EFM}}} \right| \times 100 \]
+
+Where:
+- `APE_{LPM}` is the expected absolute percentage error for the electric circuit modeling.
+- `Zmed_{EFM}` is the standard value taken for comparison.
+- `Zmed_{LPM}` is the observed value from the electric circuit modeling.
+
+This formula provides a measure of the percentage difference between the observed and standard values, allowing for an assessment of the accuracy of the electric circuit model.
+
+
 **Table 1**   
 | $\rho \ (\Omega \cdot m)$ | $Zmed_{EFM} (\Omega)$ | $Zmed_{LPM} (\Omega)$ [^1]| $Zmed_{LPM} (\Omega)$ (Proposed) | $APE_{LPM}$ (%) [^1]| $APE_{LPM}$  (%) (Proposed)|
 |---------------|------------------------|------------------------|----------------------------------|------------------|------------------------|
