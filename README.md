@@ -17,8 +17,8 @@ The research article addresses:
 
 - [[Paper_results.xlsx](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/blob/main/Paper_results.xlsx)]: Excel file comprising two spreadsheets:
   
-  --(i) "Results of Section 3": Contains input parameters for both computer simulation models in the study case, along with the corresponding results.
-  --(ii) "Results of Section 4": Encompasses input and output data employed for investigating the parameter k in the case study through electromagnetic modeling using COMSOL Multiphysics.
+  -(i) "Results of Section 3": Contains input parameters for both computer simulation models in the study case, along with the corresponding results.
+  -(ii) "Results of Section 4": Encompasses input and output data employed for investigating the parameter k in the case study through electromagnetic modeling using COMSOL Multiphysics.
 
 - [[case_study_COMSOL.mph](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/blob/main/case_study_COMSOL.mph)] : COMSOL Multiphysics model file used for the computer simulation of the case study through its electromagnetic field modeling according to Section 3 of the article. This ".mph file" can also be used to survey the k parameter according to item 4 of the article, simply making changes to the electrodes' geometry and spacing between them. 
 
