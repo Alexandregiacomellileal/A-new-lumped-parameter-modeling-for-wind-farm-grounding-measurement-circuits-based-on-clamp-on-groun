@@ -15,7 +15,7 @@ The research article addresses:
 
 ### Files
 
-- [[Paper_results.xlsx](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/blob/main/Paper_results.xlsx)]: Paper_results.xlsx: Excel file comprising two spreadsheets:
+- [[Paper_results.xlsx](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/blob/main/Paper_results.xlsx)]: Excel file comprising two spreadsheets:
   (i) "Results of Section 3": Contains input parameters for both computer simulation models in the study case, along with the corresponding results.
   (ii) "Results of Section 4": Encompasses input and output data employed for investigating the parameter k in the case study through electromagnetic modeling using COMSOL Multiphysics.
 
