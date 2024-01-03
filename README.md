@@ -19,7 +19,7 @@ The research article addresses:
 
 - [[case_study_COMSOL.mph](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/blob/main/case_study_COMSOL.mph)] : COMSOL Multiphysics model file used for the computer simulation of the case study through its electromagnetic field modeling according to Section 3 of the article. This ".mph file" can also be used to survey the k parameter according to item 4 of the article, simply making changes to the electrodes' geometry and spacing between them. 
 
-- [[fig1.pdf](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/blob/main/fig1.pdf)] presents the equivalent circuit of the case study according to [33] and the proposed model.
+- [[fig1.pdf](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/blob/main/fig1.pdf)] presents the equivalent circuit of the case study according to [^1] and the proposed model.
 
 - [[fig2.pdf](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/blob/main/fig2.pdf)] shows the design schematic representation of the case study grounding system containing three groundings of wind turbines spaced 300 meters from their neighbors and interconnected by horizontal electrodes, as well as the clamp-on ground meter used to evaluate the grounding resistance of the turbine of interest.
 
@@ -31,6 +31,7 @@ The research article addresses:
 
 - [[fig6.pdf](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/blob/main/fig6.pdf)] shows an image of the discretization mesh of the case study model built in COMSOL. In the discretization step of the finite element method used by COMSOL, extra-fine meshes with edge refinement are composed of tetrahedral elements.
 
+[^1]: A.G. Leal, H.L. L ́opez-Salamanca, A.E. Lazzaretti, D.C. Marcilio, A new approach for ground resistance measurements in onshore wind farms based on clamp-on meters and artificial neural network, Electric Power Systems Research. 210 (2022) 108161.
 ________________________________________________________________________________________________________________________
 
 ### Contact us:
