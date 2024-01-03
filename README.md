@@ -25,7 +25,7 @@ The instrument chosen for the case study was a UT278A clamp-on meter whose induc
 
 This work will consider that the case study grounding system can be installed in different homogeneous soils with a low-frequency resistivity $\rho$ of 100, 300, 5252, and 10240 $\Omega \cdot m$. Additionally, it will be evaluated its installation in a typical two-layer soil with a resistivity of 5252 $\Omega \cdot m$ in the first five meters of depth and 300 $\Omega \cdot m$ in the deepest layer. The relative permeability and permittivity of the soil were assumed to be constant and equal to 1 and 9, respectively. 
 
-### Lumped parameter modeling
+### Lumped Parameter Modeling
 
 The lumped parameter model for the ground impedance measurement loop of Figure 1 was established and simulated in ATP (Figure 2-B)[[celulapi_COMSOL_k_RLC.acp](https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation_alternative/blob/main/celulapi_COMSOL_k_RLC.acp)] to acquire the meter readings Zmed<sub>LPM</sub> following the procedures detailed in Section 2.2 of the associated research paper. Furthermore, the lumped parameter modeling used in [our previous work](https://github.com/Alexandregiacomellileal/A-New-Approach-Towards-Error-Reduction-in-Ground-Resistance-Measurements-Based-on-Clamp-on-Method) [^1] was also established and simulated in ATP (Figure 2-A) for comparative purposes [[23_model.acp](https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation_alternative/blob/main/23_model.acp)].
 
@@ -48,6 +48,17 @@ Notably, the COMSOL simulation results reveal that the parameter $k$ remains con
 **Figure 3**       
 <img src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/defc7caa-dfa5-4450-b958-91beb23f02a1" width="500" height="375">
 
+### Electromagnetic Field Modeling by COMSOL Multiphysics
+
+The case study's grounding system of Figure 1 was faithfully implemented in the Electromagnetic Waves and Frequency Domain interface of COMSOL Multiphysics\textsuperscript{\textregistered}, according to the design parameters of the wind farm. This physics interface is used to solve the harmonic wave time equation for the electric field. It is used in situations where the analyzed device length may be comparable to the longest operating wavelength. 
+
+The grounding of each one of the three turbines is represented by a cylindrical copper electrode with a radius of 7.88 $m$ and a height of 17.2 $m$. The horizontal electrodes are represented by a cylindrical copper electrode with a cross-sectional area of 95 mm$^2$, a length of 300 m, and buried at 1 m from the ground. All electrodes are inserted in a volume of soil with hemispherical geometry with a radius of 30 times the length of the horizontal electrode under test. 
+
+The Finite Element Method (FEM), used by COMSOL to find a numerical solution to Maxwell`s electromagnetic equations, proposes dividing the domain of a problem into smaller parts, which interact with each other, allowing the resolution of the problem through differential equations. In the FEM's discretization step of the study case, extra-fine meshes with edge refinement composed of tetrahedral elements were used in all case study domains to obtain more accurate results. The low-frequency soil resistivity evaluated was from 100 to 10240 $\Omega \cdot m$. The relative permeability and permittivity of the soil were assumed to be constant and equal to 1 and 9, respectively. A lumped-feed port was used to simulate the operation of the UT-278A meter clamped to the 11.4 m long insulated cable that connects the horizontal electrodes to the turbine grounding. This simulation was performed at a test frequency of 1572 Hz. In this way, the measurement circuit impedance read by the lumped-feed port is obtained in its rectangular form as $Z_{ feed \ port} = R_{ feed \ port}+jX_{ feed \ port}$ ($\Omega$ ), where $R_{ feed \ port}$ and $X_{ feed \ port}$ is its real and imaginary components, respectively. Thus, the magnitude of the measurement loop impedance, which corresponds to a clamp-on ground meter reading predicted through electromagnetic field modeling $Zmed_{EFM} (\Omega) $, can be calculated as:
+\begin{equation}
+Zmed_{EFM}= \sqrt{R_{feed \ port}^2+X_{ feed \  port}^2}
+\label{eq:eqrf5}
+\end{equation}
 
 ### Results
 
