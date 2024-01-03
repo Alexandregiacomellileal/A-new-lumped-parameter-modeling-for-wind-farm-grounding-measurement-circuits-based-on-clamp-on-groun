@@ -37,6 +37,16 @@ The lumped parameter model for the measurement of Figure 1 was established and s
 In our quest to mitigate the impact of mutual coupling in measurements and address distortions arising from the utilization of an equivalent semi-spherical representation of the horizontal electrode, we are engaged in refining the estimation process. Our focus is on enhancing accuracy and reliability by systematically assessing and adjusting the parameters involved in the measurement system.
 
 According to Section 3.1 of the associated research article, the parameter k was estimated to be 0.7 for a distance between the turbine grounding and the adjacent horizontal electrode of 11.4 m (defined as $s$).
+$Zmed_{wire}^\infty (\Omega)$ is the clamp-on reading taken with the turbine grounding and the horizontal electrode separated by a large distance, in a such way that the mutual couplings between these elements can be considered negligible. On the other hand, the $Zmed_{lumped}^{short} (\Omega)$ is the clamp-on reading taken with the turbine grounding and the horizontal electrode separated by a smaller distance $s$ and with the horizontal electrode being represented by two semi-spherical electrodes spaced so that one does not be influenced by the other. For a single lumped parameter cell representing the horizontal electrode, each semi-spherical electrode must have twice its grounding resistance. 
+
+Table 1 displays results obtained at an average soil resistivity of 300 $(\Omega.m)$. Notably, the COMSOL simulation results reveal that the parameter $k$ remains consistent for a specified value of $s$ across a wide range of soil resistivities, spanning from 20 to 10240 $(\Omega.m)$.
+
+**Table 1**
+| $s \ (m)$ | $\rho \ (\Omega.m)$| ${Zmed}_{lumped}^{short} (\Omega) $ | ${Zmed}_{wire}^\infty (\Omega)$| $k$             |
+|---------|---------|------------------------|-----------------------|-----------------|
+| 11.4   | 300  | 3.2              | 4.6              | 0.7     |
+
+
 In instances where simulation software is unavailable for researching the parameter in the measuring circuit, the attached graph of Figure 3 serves as a valuable tool for estimating it according to the distance between the grounding elements. This estimate is particularly relevant in cases where the grounding configuration involves cylindrical-shaped turbine foundations with multiple driven pillars, constructed of reinforced concrete, and horizontal electrodes.
 
 **Figure 3**       
@@ -45,7 +55,7 @@ In instances where simulation software is unavailable for researching the parame
 
 ### Results
 
-Table 1 compares the meter readings $Zmed_{LPM}$ obtained by means of lumped parameter modeling used in [^1], with those proposed in this paper. Table 1 also presents the values of the readings obtained through Computational Electromagnetic Modeling using COMSOL $Zmed_{EFM}$. The measurement circuit was simulated under different homogeneous soil with a low-frequency resistivity of 100, 300, 5252, and 10240  $\Omega \cdot m$. A computer simulation was also carried out using a typical two-layer soil with a resistivity of 5252  $\Omega \cdot m$ in the first five meters of depth and 300  $\Omega \cdot m$ on the deeper layer. The results obtained by the computational simulation of the electromagnetic model of the case study were not significantly affected by the variation between 1 and 10 of the relative permittivity of the soil, so we assume that its value is constant and equal to 9 in this study. In the context of electric circuit modeling, the expected absolute percentage error ($APE_{LPM}$) is calculated based on the standard $Zmed_{EFM}$. The formula for calculating $APE_{LPM}$ (%) is given by:
+Table 2 compares the meter readings $Zmed_{LPM}$ obtained by means of lumped parameter modeling used in [^1], with those proposed in this paper. Table 1 also presents the values of the readings obtained through Computational Electromagnetic Modeling using COMSOL $Zmed_{EFM}$. The measurement circuit was simulated under different homogeneous soil with a low-frequency resistivity of 100, 300, 5252, and 10240  $\Omega \cdot m$. A computer simulation was also carried out using a typical two-layer soil with a resistivity of 5252  $\Omega \cdot m$ in the first five meters of depth and 300  $\Omega \cdot m$ on the deeper layer. The results obtained by the computational simulation of the electromagnetic model of the case study were not significantly affected by the variation between 1 and 10 of the relative permittivity of the soil, so we assume that its value is constant and equal to 9 in this study. In the context of electric circuit modeling, the expected absolute percentage error ($APE_{LPM}$) is calculated based on the standard $Zmed_{EFM}$. The formula for calculating $APE_{LPM}$ (%) is given by:
 
 $\ APE_{LPM} = |\frac{{Zmed_{LPM} - Zmed_{EFM}}}{{Zmed_{EFM}}}| \times 100 \$
 
@@ -56,7 +66,7 @@ Where:
 
 This formula provides a measure of the percentage difference between the observed and standard values, allowing for an assessment of the accuracy of the electric circuit model.
 
-**Table 1: Comparison of Meter Readings**   
+**Table 2: Comparison of Meter Readings**   
 | $\rho \ (\Omega \cdot m)$ | $Zmed_{EFM} (\Omega)$ | $Zmed_{LPM} (\Omega)$ [^1]| $Zmed_{LPM} (\Omega)$ (Proposed) | $APE_{LPM}$ (%) [^1]| $APE_{LPM}$  (%) (Proposed)|
 |---------------|------------------------|------------------------|----------------------------------|------------------|------------------------|
 | 100             | 1.26              | 1.97                | 1.38                       | 56.25            | **10.27**              |
@@ -65,7 +75,7 @@ This formula provides a measure of the percentage difference between the observe
 | 10240           | 116.80            | 149.59              | 117.08                         | 28.07            | **0.24**               |
 | 5252/300          | 5.38           | 6.67               | 5.91                          | 24.08            | **9.88**               |
 
-Table 1 illustrates a robust agreement in the outcomes obtained between the proposed lumped-parameter model and the electromagnetic method. When considering homogeneous soil, the model adeptly captures the behavior of the actual measurement circuit across a spectrum of apparent soil resistivity, spanning from the lowest to the highest values encountered in wind farms. Notably, the error approached zero for soils characterized by high resistivities, a common scenario in wind farm environments. The simulation results demonstrate that the proposed solution excels in accurately estimating the low-frequency impedance of the measuring loop. On average, the proposed model exhibits an error rate that is 85.8% lower compared to the model used in [^1].
+Table 2 illustrates a robust agreement in the outcomes obtained between the proposed lumped-parameter model and the electromagnetic method. When considering homogeneous soil, the model adeptly captures the behavior of the actual measurement circuit across a spectrum of apparent soil resistivity, spanning from the lowest to the highest values encountered in wind farms. Notably, the error approached zero for soils characterized by high resistivities, a common scenario in wind farm environments. The simulation results demonstrate that the proposed solution excels in accurately estimating the low-frequency impedance of the measuring loop. On average, the proposed model exhibits an error rate that is 85.8% lower compared to the model used in [^1].
 
 ### Files
 
