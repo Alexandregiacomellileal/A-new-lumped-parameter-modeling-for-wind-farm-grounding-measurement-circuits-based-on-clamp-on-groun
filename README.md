@@ -41,6 +41,7 @@ In our quest to mitigate the impact of mutual coupling in measurements and addre
 According to Section 3.1 of the associated research article, the parameter k was estimated to be 0.7 for a distance between the turbine grounding and the adjacent horizontal electrode of 11.4 m (defined as $s$).
 In instances where simulation software is unavailable for researching the parameter in the measuring circuit, the attached graph of Figure 3 serves as a valuable tool for estimating it according to the distance between the grounding elements. This estimate is particularly relevant in cases where the grounding configuration involves cylindrical-shaped turbine foundations with multiple driven pillars, constructed of reinforced concrete, and horizontal electrodes.
 
+**Figure 3** 
 ![image](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/d48b96fa-a84d-486c-a81f-d930640a6f79)
 
 
