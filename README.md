@@ -38,7 +38,7 @@ In our quest to mitigate the impact of mutual coupling in measurements and addre
 
 This section presents the methodology used to tune the parameter $k$ in the lumped-parameter model. The parameter $k$ is calculated as $k= (1- e_{total})$, and $e_{total}$ is the sum of the measurement error caused by the mutual coupling impedance between the turbine grounding and the horizontal electrode distanced by $s$ meters, plus the error caused by the representation of the horizontal electrode by a pair of hemispherical electrodes (lumped parameter modeling), being calculated as: 
 
-$e_{total} = \frac{{{Zmed}_{wire}^\infty - Zmed}_{lumped}^{short}}{{Zmed}_{wire}^\infty}$,
+$e_{total} = \frac{{Zmed_{wire}^\infty - Zmed_{lumped}^{short}}{Zmed_{wire}^\infty}$
 
 where, $Zmed_{wire}^\infty (\Omega)$ is the clamp-on reading taken with the turbine grounding and the horizontal electrode separated by a large distance, in a such way that the mutual couplings between these elements can be considered negligible. On the other hand, the $Zmed_{lumped}^{short} (\Omega)$ is the clamp-on reading taken with the turbine grounding and the horizontal electrode separated by a smaller distance $s$ and with the horizontal electrode being represented by two semi-spherical electrodes spaced so that one does not be influenced by the other. For a single lumped parameter cell representing the horizontal electrode, each semi-spherical electrode must have twice its grounding resistance. Then, the $k$ parameter is calculated as $k = \frac{Zmed_{lumped}^{short}} {Zmed_{wire}^\infty}$.
 
