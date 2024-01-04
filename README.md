@@ -32,7 +32,7 @@ The lumped parameter model for the ground impedance measurement loop of Figure 1
 **Figure 2**     
 <img width="530" alt="image" src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/945ccf5b-8f38-42bc-9132-75278704b092">
 
-to represent the mutual couplings between the grounding of the turbine under test and its adjacent horizontal electrodes, the resistance $R_c$ ($\Omega$), and the capacitance $C_c$ ($F$) are calculated as $R_c = R_{f} + R_{p}  \frac{k}{1-k}, and C_c = \frac{C_{f} C_p}{C_{f} + C_p}\right \frac{1-k}{k}.
+to represent the mutual couplings between the grounding of the turbine under test and its adjacent horizontal electrodes, the resistance $R_c$ ($\Omega$), and the capacitance $C_c$ ($F$) are calculated as $R_c = R_f + R_p  \frac{k}{1-k}$, and $C_c = \frac{C_{f} C_p}{C_{f} + C_p}\right \frac{1-k}{k}$.
 
 
 ### $k$ Parameter Estimation
