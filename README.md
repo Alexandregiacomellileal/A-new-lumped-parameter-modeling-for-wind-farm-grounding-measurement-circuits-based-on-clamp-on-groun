@@ -32,20 +32,7 @@ The lumped parameter model for the ground impedance measurement loop of Figure 1
 **Figure 2**     
 <img width="530" alt="image" src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/945ccf5b-8f38-42bc-9132-75278704b092">
 
-[^1] Model:
-
-$R_f$: Turbine grounding resistance (Ω)
-
-$L_p$: Horizontal electrodes' self-inductance (H)
-$R_s$: Horizontal electrodes' self-resistance (Ω)
-$R_p$: Horizontal electrodes grounding resistance (Ω)
-
-New Proposed Model (with Mutual Couplings):
-$C_f$: Turbine grounding capacitance (F)
-$C_p$: Horizontal electrode capacitance (F)
-$R_c$: Mutual resistance between grounding elements (Ω)
-$C_c$: Mutual capacitance between grounding elements (F)
-$k$: Adjustment parameter
+In Figure 2-A and B $R_f$ is the turbine grounding resistance (Ω), $L_p$ is the horizontal electrodes' self-inductance (H), $R_s$ is the horizontal electrodes' self-resistance (Ω), and $R_p$is the horizontal electrodes grounding resistance (Ω). Adictionally in relation of Figure 2-B it are included the components $C_f$ defined as turrbine grounding capacitance (F), $C_p$ as horizontal electrode capacitance (F), $R_c$ as mutual resistance between grounding elements (Ω), $C_c$ as mutual capacitance between grounding elements (F), and a adjustment parameter $k$ to account for mutual resistance and mitigate distortions in the modeling. 
 
 Calculation of $R_c$ and $C_c$:
 $R_c = (R_f + R_p) \frac{k}{1-k}$
