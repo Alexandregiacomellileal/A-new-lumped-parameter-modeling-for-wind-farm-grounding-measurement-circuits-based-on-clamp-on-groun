@@ -42,33 +42,18 @@ $C_c = \frac{C_f \cdot C_p} {C_f + C_p} \frac{1-k}{k}$
 In Figures 2-A and 2-B, the grounding elements of the grounding system are characterized by various parameters:
 
 **Figure 2-A:**
-    R_f & : \text{Turbine grounding resistance (}\Omega\text{)} \\
-    L_p & : \text{Horizontal electrodes' self-inductance (H)} \\
-    R_s & : \text{Horizontal electrodes' self-resistance (}\Omega\text{)} \\
-    R_p & : \text{Horizontal electrodes grounding resistance (}\Omega\text{)}
+    $R_f4 : turbine grounding resistance (Ω)
+    $L_p$ : horizontal electrodes' self-inductance (H)
+    $R_s$ : horizontal electrodes' self-resistance (Ω)
+    $R_p$  : horizontal electrodes grounding resistance (Ω)
 
-
-\textbf{Figure 2-B:}
-In addition to the parameters in Figure 2-A, Figure 2-B introduces components to enhance the modeling accuracy by considering mutual interactions between grounding elements:
-\begin{align*}
-    C_f & : \text{Turbine grounding capacitance (F)} \\
-    C_p & : \text{Horizontal electrode capacitance (F)} \\
-    R_c & : \text{Mutual resistance between grounding elements, calculated as } R_c = (R_f + R_p) \frac{k}{1-k} \text{ (}\Omega\text{)} \\
-    C_c & : \text{Mutual capacitance between grounding elements, calculated as } C_c = \frac{C_f \cdot C_p} {C_f + C_p} \frac{1-k}{k} \text{ (F)} \\
-    k & : \text{Adjustment parameter}
-\end{align*}
-
-These additional components, $C_f$, $C_p$, $R_c$, $C_c$, and $k$, are incorporated into the model to account for mutual resistance and capacitance, mitigating distortions in the overall representation. The calculations of $R_c$ and $C_c$ are expressed as:
-\[
-    R_c = (R_f + R_p) \frac{k}{1-k}
-\]
-\[
-    C_c = \frac{C_f \cdot C_p} {C_f + C_p} \frac{1-k}{k}
-\]
-
-These formulas quantify the mutual resistance and capacitance, respectively, emphasizing the comprehensive nature of the updated model.
-
-
+**Figure 2-B:**
+In addition to the parameters in Figure 2-A, Figure 2-B introduces components to enhance the modeling accuracy:
+    $C_f$ :  turbine grounding capacitance (F)
+    $C_p$ : horizontal electrode capacitance (F)
+    $R_c$ : mutual resistance between grounding elements, calculated as $R_c = (R_f + R_p) \frac{k}{1-k} \text{ (}\Omega\text{)}$ 
+    $C_c$ : mutual capacitance between grounding elements, calculated as $C_c = \frac{C_f \cdot C_p} {C_f + C_p} \frac{1-k}{k} \text{ (F)}$
+    $k$ : adjustment parameter.
 
 ### $k$ Parameter Estimation
 
