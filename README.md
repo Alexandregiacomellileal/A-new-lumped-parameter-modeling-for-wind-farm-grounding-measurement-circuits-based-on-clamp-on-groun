@@ -40,9 +40,11 @@ The parameter $k$ is determined by the expression $k = (1 - e_{\text{total}})$, 
 
 Subsequently, the parameter $k$ is computed using the formula $k = \frac{Zmed_{lumped}^{short}} {Zmed_{wire}^\infty}$. This calculation ensures that $k$ accounts for the relative difference between the clamp-on readings under conditions where mutual couplings are significant and when the horizontal electrode is accurately represented by the lumped parameter model. The final value of $k$ quantifies the extent of deviation from the ideal case, with $1 - k$ representing the overall measurement error.
 
+
 **Figure 3 - COMSOL models used for the survey $Zmed_{wire}^\infty$ (A) and $Zmed_{lumped}^{short}$ (B)** 
 
 <img width="4376" alt="image" src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/151cb6ca-bcad-43e5-933a-3cca3fa8c2bf">
+
 
 Computational simulations of the clamp-on method in a single grounding cell of the case study were performed in COMSOL Multiphysics to find its $k$ parameter. According to Section 3.1 of the associated research article, the parameter k was estimated to be 0.7 for a distance between the turbine grounding and the adjacent horizontal electrode of 11.4 m (defined as $s$). Table 1 displays results obtained at an average soil resistivity of 300 $(\Omega.m)$.
 
