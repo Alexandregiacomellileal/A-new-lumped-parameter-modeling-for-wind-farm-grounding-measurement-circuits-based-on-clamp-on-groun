@@ -39,15 +39,14 @@ $R_c = (R_f + R_p) \frac{k}{1-k}$
 $C_c = \frac{C_f \cdot C_p} {C_f + C_p} \frac{1-k}{k}$
 
 
-In Figures 2-A and 2-B, the grounding elements of the turbine system are characterized by various parameters:
+In Figures 2-A and 2-B, the grounding elements of the grounding system are characterized by various parameters:
 
-\textbf{Figure 2-A:}
-\begin{align*}
+**Figure 2-A:**
     R_f & : \text{Turbine grounding resistance (}\Omega\text{)} \\
     L_p & : \text{Horizontal electrodes' self-inductance (H)} \\
     R_s & : \text{Horizontal electrodes' self-resistance (}\Omega\text{)} \\
     R_p & : \text{Horizontal electrodes grounding resistance (}\Omega\text{)}
-\end{align*}
+
 
 \textbf{Figure 2-B:}
 In addition to the parameters in Figure 2-A, Figure 2-B introduces components to enhance the modeling accuracy by considering mutual interactions between grounding elements:
