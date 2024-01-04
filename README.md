@@ -112,7 +112,8 @@ Table 2 illustrates a robust agreement in the outcomes obtained between the prop
 
 As previously stated, the parameter $k$ is determined by the expression $k = (1 - e_{\text{total}})$, where $e_{\text{total}}$ is the sum of the measurement errors induced by two factors. The first factor is the mutual coupling impedance between the turbine grounding and the horizontal electrode, separated by a distance $s$ meters ($e_{\text{mutual}}$). The second factor accounts for the error introduced by representing the horizontal electrode using a pair of hemispherical electrodes in a lumped parameter model ($e_{\text{hemispherical}}$). The parameter $k$ reflects the overall correction, considering both sources of measurement errors.
 
-<img width="487" alt="image" src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/0f0d9fa3-9ed7-477e-9ade-0e4ac7458c9c">
+<img width="494" alt="image" src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/28cd16d6-f6c9-4c65-8b22-9fba267d491d">
+
 
 
 
