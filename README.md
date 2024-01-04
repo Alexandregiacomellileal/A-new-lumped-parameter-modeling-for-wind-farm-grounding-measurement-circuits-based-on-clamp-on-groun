@@ -48,7 +48,10 @@ Subsequently, the parameter $k$ is computed using the formula $k = \frac{Zmed_{l
 <img width="4376" alt="image" src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/151cb6ca-bcad-43e5-933a-3cca3fa8c2bf">
 
 
-Computational simulations of the clamp-on method in a single grounding cell of the case study were performed in COMSOL Multiphysics to find its $k$ parameter. According to Section 3.1 of the associated research article, the parameter k was estimated to be 0.7 for a distance between the turbine grounding and the adjacent horizontal electrode of 11.4 m (defined as $s$). Table 1 displays results obtained at an average soil resistivity of 300 $(\Omega.m)$.
+Certainly! Here's an improved version of the provided text:
+
+In this study, we conducted computational simulations of the clamp-on method within a single grounding cell of the case study using COMSOL to determine its $k$ parameter. Figure 3 illustrates the grounding cell models simulated in COMSOL, which consist of a turbine grounding and a horizontal electrode. For the $Z_{\text{med_wire}}^{\infty} (\Omega)$ survey, we employed the grounding cell depicted in Figure \ref{fig:ablation1}-A. Conversely, for the $Z_{\text{med_lumped}}^{\text{short}}$ survey, we utilized the grounding cell presented in Figure \ref{fig:ablation1}-B.
+According to Section 3.1 of the associated research article, the parameter k was estimated to be 0.7 for a distance between the turbine grounding and the adjacent horizontal electrode of 11.4 m (defined as $s$). Table 1 displays results obtained at an average soil resistivity of 300 $(\Omega.m)$.
 
 **Table 1**
 | $s \ (m)$ | $\rho \ (\Omega.m)$| ${Zmed}_{lumped}^{short} (\Omega) $ | ${Zmed}_{wire}^\infty (\Omega)$| $k$             |
