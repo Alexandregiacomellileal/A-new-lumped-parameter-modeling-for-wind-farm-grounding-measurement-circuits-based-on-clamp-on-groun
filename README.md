@@ -108,7 +108,9 @@ Table 2 illustrates a robust agreement in the outcomes obtained between the prop
 
 - [[lumped_parameter_model.pdf](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/blob/main/lumped_parameter_model.pdf)] presents the equivalent measurement circuit of the case study modeled by lumped parameters, in which, $R_f$ corresponds to the turbine grounding resistance (Ω), $Z_s$ is the horizontal electrodes' self-impedance (Ω), and $R_p$ is the horizontal electrodes grounding resistance (Ω). Furthermore, a resistance $R_c$ (Ω), a capacitance $C_c$ (F) and an adjustment parameter $k$ were added to the lumped-parameter model to represent the impact of mutual resistance between the grounding elements and mitigate distortions due to modeling.
 
+### Apendice - Decomposing $e_{total}$
 
+As already explained, the parameter $k$ is determined by the expression $k = (1 - e_{\text{total}})$, where $e_{\text{total}}$ is the sum of the measurement errors induced by two factors. The first factor is the mutual coupling impedance between the turbine grounding and the horizontal electrode, separated by a distance $s$ meters. The second factor accounts for the error introduced by representing the horizontal electrode using a pair of hemispherical electrodes in a lumped parameter model. 
 
 
 [^1]: A.G. Leal, H.L. L ́opez-Salamanca, A.E. Lazzaretti, D.C. Marcilio, A new approach for ground resistance measurements in onshore wind farms based on clamp-on meters and artificial neural network, Electric Power Systems Research. 210 (2022) 108161.
