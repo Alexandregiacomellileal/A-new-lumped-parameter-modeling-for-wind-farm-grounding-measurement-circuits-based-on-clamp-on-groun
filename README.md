@@ -117,7 +117,7 @@ Figure 6 illustrates a graphical representation of the error in assessing the im
 **Figure 6**      
 <img width="494" alt="image" src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/28cd16d6-f6c9-4c65-8b22-9fba267d491d">
 
-As we can perceive in Figure 6, the error caused by the mutual impedance between the elements $e_{\text{mutual}}$ is not constant and decreases with the increase in the length of the horizontal electrode. In contrast, the error caused by the distortion introduced by representing the horizontal electrode with two hemispheres ($e_{\text{hemispherical}}$) increases with the size of the horizontal electrode. The sum of both factors ends up creating a total error that is practically constant regardless of the size of the horizontal length.
+As we can perceive in Figure 6, the error caused by the mutual impedance between the elements $e_{\text{mutual}}$ is not constant and decreases with the increase in the length of the horizontal electrode. In contrast, the error caused by the distortion introduced by representing the horizontal electrode with two hemispheres ($e_{\text{hemispherical}}$) increases with the size of the horizontal electrode. The sum of both factors ends up creating a total error that is practically constant regardless of the size of the horizontal length, which is extremely convenient for our modeling.
 
 
 [^1]: A.G. Leal, H.L. L ́opez-Salamanca, A.E. Lazzaretti, D.C. Marcilio, A new approach for ground resistance measurements in onshore wind farms based on clamp-on meters and artificial neural network, Electric Power Systems Research. 210 (2022) 108161.
