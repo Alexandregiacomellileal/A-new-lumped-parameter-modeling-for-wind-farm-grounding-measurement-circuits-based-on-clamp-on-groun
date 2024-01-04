@@ -114,7 +114,7 @@ As previously stated, the parameter $k$ is determined by the expression $k = (1 
 
 Figure 6 illustrates a graphical representation of the error in assessing the impedance of the measuring loop concerning the variation in the length of the horizontal electrode under test. The dimensions of the turbine grounding and the separation distance $s$ are kept constant, as reported in case study. This graph is specifically generated for soil with a resistivity of 300 $\Omega.m$; however, its applicability extends to represent soils within a resistivity range of 20 to 10,240 $\Omega.m$. 
 
-**Figure 6**
+**Figure 6**      
 <img width="494" alt="image" src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/28cd16d6-f6c9-4c65-8b22-9fba267d491d">
 
 
