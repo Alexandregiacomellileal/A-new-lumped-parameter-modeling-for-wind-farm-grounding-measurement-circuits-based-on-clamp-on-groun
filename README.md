@@ -42,7 +42,7 @@ Mathematically, $e_{total}$ is calculated as:
 
  $e_{total} = \frac{Zmed_{wire}^\infty - Zmed_{lumped}^{short}}{Zmed_{wire}^\infty}$
 
-Here, $Z_{\text{med\_wire}}^{\infty} (\Omega)$ represents the clamp-on reading obtained with the turbine grounding and the horizontal electrode positioned at a considerable distance, ensuring negligible mutual couplings between these elements. Conversely, $Z_{\text{med\_lumped}}^{\text{short}} (\Omega)$ is the clamp-on reading obtained with the turbine grounding and the horizontal electrode separated by a smaller distance $s$, with the horizontal electrode represented by two semi-spherical electrodes spaced to avoid mutual influence. For a single lumped parameter cell representing the horizontal electrode, each semi-spherical electrode is designed to have twice its grounding resistance.
+Here, $Z_med_{wire}^\infty (\Omega)$ represents the clamp-on reading obtained with the turbine grounding and the horizontal electrode positioned at a considerable distance, ensuring negligible mutual couplings between these elements. Conversely, $Zmed_{lumped}}^{short} (\Omega)$ is the clamp-on reading obtained with the turbine grounding and the horizontal electrode separated by a smaller distance $s$, with the horizontal electrode represented by two semi-spherical electrodes spaced to avoid mutual influence. For a single lumped parameter cell representing the horizontal electrode, each semi-spherical electrode is designed to have twice its grounding resistance.
 
 Subsequently, the parameter $k$ is computed using the formula:
 
