@@ -38,9 +38,9 @@ In our quest to mitigate the impact of mutual coupling in measurements and addre
 
 The parameter $k$ is determined by the expression $k = (1 - e_{\text{total}})$, where $e_{\text{total}}$ is the sum of the measurement errors induced by two factors. The first factor is the mutual coupling impedance between the turbine grounding and the horizontal electrode, separated by a distance $s$ meters. The second factor accounts for the error introduced by representing the horizontal electrode using a pair of hemispherical electrodes in a lumped parameter model.
 
-Mathematically, $e_{\text{total}}$ is calculated as:
+Mathematically, $e_{total}$ is calculated as:
 
-\[ e_{\text{total}} = \frac{Z_{\text{med\_wire}}^{\infty} - Z_{\text{med\_lumped}}^{\text{short}}}{Z_{\text{med\_wire}}^{\infty}} \]
+ $e_{total} = \frac{Zmed_{wire}^\infty - Zmed_{lumped}^{short}}{Zmed_{wire}^\infty}$
 
 Here, $Z_{\text{med\_wire}}^{\infty} (\Omega)$ represents the clamp-on reading obtained with the turbine grounding and the horizontal electrode positioned at a considerable distance, ensuring negligible mutual couplings between these elements. Conversely, $Z_{\text{med\_lumped}}^{\text{short}} (\Omega)$ is the clamp-on reading obtained with the turbine grounding and the horizontal electrode separated by a smaller distance $s$, with the horizontal electrode represented by two semi-spherical electrodes spaced to avoid mutual influence. For a single lumped parameter cell representing the horizontal electrode, each semi-spherical electrode is designed to have twice its grounding resistance.
 
