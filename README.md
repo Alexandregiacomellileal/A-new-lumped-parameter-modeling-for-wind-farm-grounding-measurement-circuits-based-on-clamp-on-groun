@@ -39,6 +39,9 @@ In our quest to mitigate the impact of mutual coupling in measurements and addre
 **Figure 3**      
 <img src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/f4eb056f-d468-49b4-83ad-caf6ad49b9a9" width="600" height="375">
 
+<img width="4376" alt="image" src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/151cb6ca-bcad-43e5-933a-3cca3fa8c2bf">
+
+
 Computational simulations of the clamp-on method in a single grounding cell of the case study were performed in COMSOL Multiphysics to find its $k$ parameter. 
 According to Section 3.1 of the associated research article, the parameter k was estimated to be 0.7 for a distance between the turbine grounding and the adjacent horizontal electrode of 11.4 m (defined as $s$). Table 1 displays results obtained at an average soil resistivity of 300 $(\Omega.m)$.
 
