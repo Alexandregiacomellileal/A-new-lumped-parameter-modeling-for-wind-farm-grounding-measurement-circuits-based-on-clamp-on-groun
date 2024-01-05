@@ -46,6 +46,23 @@ In addition to the parameters in Figure 2-A, the new proposed lumped parameter m
     , $C_c$ is the mutual capacitance between grounding elements, calculated as $C_c = \frac{C_f \cdot C_p} {C_f + C_p} \frac{1-k}{k} \text{ (F)}$
     , and $k$ : adjustment parameter.
 
+    Figure 2-A:
+In Figure 2-A, the following parameters are defined:
+
+$R_f$: Turbine grounding resistance (Ω)
+$L_p$: Horizontal electrodes' self-inductance (H)
+$R_s$: Horizontal electrodes' self-resistance (Ω)
+$R_p$: Horizontal electrodes grounding resistance (Ω)
+Figure 2-B:
+Figure 2-B extends the model for improved accuracy, introducing additional components:
+
+$C_f$: Turbine grounding capacitance (F)
+$C_p$: Horizontal electrode capacitance (F)
+$R_c$: Mutual resistance between grounding elements, calculated as $R_c = (R_f + R_p) \frac{k}{1-k}$ (Ω)
+$C_c$: Mutual capacitance between grounding elements, calculated as $C_c = \frac{C_f \cdot C_p} {C_f + C_p} \frac{1-k}{k}$ (F)
+$k$: Adjustment parameter.
+
+
 ### $k$ Parameter Estimation
 
 In our quest to mitigate the impact of mutual coupling in measurements and address distortions arising from the utilization of an equivalent semi-spherical representation of the horizontal electrode, we are engaged in refining the estimation process. Our focus is on enhancing accuracy and reliability by systematically assessing and adjusting the parameters involved in the measurement system. In this way, this section applies the methodology described in Section 3.1 of the associated research article to tune the $k$ parameter in the lumped parameter model. 
