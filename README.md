@@ -39,7 +39,7 @@ The lumped parameter model for the ground impedance measurement loop of Figure 1
     , and $R_p$ is the horizontal electrodes grounding resistance (Ω)
 
 **Figure 2-B:**
-In addition to the parameters in Figure 2-A, Figure 2-B introduces components to enhance the modeling accuracy:
+In addition to the parameters in Figure 2-A, the new proposed lumped parameter model introduces components to enhance the modeling accuracy:
     $C_f$ is the turbine grounding capacitance (F)
     , $C_p$ is the horizontal electrode capacitance (F)
     , $R_c$ is the mutual resistance between grounding elements, calculated as $R_c = (R_f + R_p) \frac{k}{1-k} \text{ (}\Omega\text{)}$ 
