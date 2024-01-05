@@ -51,7 +51,7 @@ To represent the mutual couplings between the grounding of the turbine under tes
 - **$C_c$:** Capacitance (F), calculated as $C_c = (\frac{C_f \cdot C_{eq}}{C_f + C_{eq}}) \frac{1-k}{k}$ (F).
 
 Here, the equivalent values of the electrical quantities of the return electrodes located close to the measuring point are represented by $R_{eq}$ (Ω) and $C_{eq}$ (F).
-
+These resistance $R_c$ and capacitance $C_c$ elements serve to establish a path for the portion of the test current flow that doesn't circulate through measurement circuit branches referenced to the remote ground.
 
 ### $k$ Parameter Estimation
 
