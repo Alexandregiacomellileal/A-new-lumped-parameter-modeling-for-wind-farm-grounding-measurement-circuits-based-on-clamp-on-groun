@@ -48,7 +48,7 @@ To represent the mutual couplings between the grounding of the turbine under tes
 
 - **$k$:** A dimensionless parameter that varies from 0 to 1, to be estimated in the next section of this document.
 - **$R_c$:** Resistance (Ω), calculated as $R_c = (R_f + R_{eq}) \frac{k}{1-k}$ (Ω).
-- **$C_c$:** Capacitance (F), calculated as $C_c = \frac{C_f \cdot C_{eq}}{C_f + C_{eq}} \frac{1-k}{k}$ (F).
+- **$C_c$:** Capacitance (F), calculated as $C_c = (\frac{C_f \cdot C_{eq}}{C_f + C_{eq}}) \frac{1-k}{k}$ (F).
 
 Here, the equivalent values of the electrical quantities of the return electrodes located close to the measuring point are represented by $R_{eq}$ (Ω) and $C_{eq}$ (F).
 
