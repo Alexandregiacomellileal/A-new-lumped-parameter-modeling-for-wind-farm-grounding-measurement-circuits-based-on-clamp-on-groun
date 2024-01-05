@@ -32,9 +32,26 @@ The lumped parameter model for the ground impedance measurement loop of Figure 1
 **Figure 2**     
 <img width="530" alt="image" src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/945ccf5b-8f38-42bc-9132-75278704b092">
 
-In Figure 2-A the following parameters are defined: $R_f$ is the turbine grounding resistance (Ω), $L_p$ is the horizontal electrodes' self-inductance (H), $R_s$ is the horizontal electrodes' self-resistance (Ω), and $R_p$ is the horizontal electrodes grounding resistance (Ω).
+## Figure 2-A: 
+the following parameters are defined: $R_f$ is the turbine grounding resistance (Ω), $L_p$ is the horizontal electrodes' self-inductance (H), $R_s$ is the horizontal electrodes' self-resistance (Ω), and $R_p$ is the horizontal electrodes grounding resistance (Ω).
 
-Figure 2-B extends the model for improved accuracy, introducing additional components: $C_f$ is the turbine grounding capacitance (F), $C_p$ is the horizontal electrode capacitance (F), $R_c$ is the mutual resistance between grounding elements, calculated as $R_c = (R_f + R_p) \frac{k}{1-k} \text{ (}\Omega\text{)}$, $C_c$ is the mutual capacitance between grounding elements, calculated as $C_c = \frac{C_f \cdot C_p} {C_f + C_p} \frac{1-k}{k} \text{ (F)}$, and $k$ : adjustment parameter.
+## Figure 2-B:
+Figure 2-B extends the model for improved accuracy by introducing the following additional components:
+
+- **$C_f$:** Turbine grounding capacitance (F)
+- **$C_p$:** Horizontal electrode capacitance (F)
+
+### Mutual Couplings and Distortion Compensation
+To represent the mutual couplings between the grounding of the turbine under test and its adjacent horizontal electrodes and compensate for the distortion caused by the representation of a cylindrical horizontal electrode by two hemispherical ones, the following parameters are introduced:
+
+- **$k$:** A parameter to be estimated in the next section of this document.
+- **$R_c$:** Resistance (Ω), calculated as $R_c = (R_f + R_{eq}) \frac{k}{1-k}$ (Ω).
+- **$C_c$:** Capacitance (F), calculated as $C_c = \frac{C_f \cdot C_{eq}}{C_f + C_{eq}} \frac{1-k}{k}$ (F).
+
+Here, the equivalent values of the electrical quantities of the return electrodes located close to the measuring point are represented by $R_{eq}$ (Ω) and $C_{eq}$ (F).
+
+### Estimation of $k$
+The parameter $k$ will be estimated in the next section of this document.
 
 ### $k$ Parameter Estimation
 
