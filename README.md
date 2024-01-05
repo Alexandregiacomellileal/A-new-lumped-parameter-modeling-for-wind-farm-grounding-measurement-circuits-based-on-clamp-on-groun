@@ -21,9 +21,7 @@ A grounding section of the São Bento Wind Complex (SBC) located in northeastern
 **Figure 1**      
 <img src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/87161e42-e7d9-4699-a4cc-77c3864decb0" width="500" height="400">
 
-![github_scheme](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/5bc5d89b-de7a-473e-bc27-544d9004d9b7)
-
-
+<img src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/5bc5d89b-de7a-473e-bc27-544d9004d9b7" width="500" height="400">
 
 The instrument chosen for the case study was a UT278A clamp-on meter whose induced voltage signal in the measurement circuit has a sinusoidal waveform with a constant amplitude of 0.028 V and a frequency of 1572 Hz. The instrument must be clamped to the measurement circuit branch in series with the turbine grounding of interest. If a single cable down to the turbine ground is not available, an alternative would be to make the meter claw hook all the horizontal electrodes connected to the grounding turbine of interest before its connection with the grounding bar, thus ensuring that the current that will pass through the instrument is the same as that flowing through the turbine grounding of interest - Figure 1. All power and communication cable screens, armor, or concentric earth wire must be disconnected during the measurement procedure. 
 
