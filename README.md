@@ -46,7 +46,7 @@ Figure 2-B extends the model for improved accuracy by introducing additional com
 
 To represent the mutual couplings between the grounding of the turbine under test and its adjacent horizontal electrodes and compensate for the distortion caused by the representation of a cylindrical horizontal electrode by two hemispherical ones, the following parameters are introduced:
 
-- **$k$:** A parameter to be estimated in the next section of this document.
+- **$k$:** A dimensionless parameter that varies from 0 to 1, to be estimated in the next section of this document.
 - **$R_c$:** Resistance (Ω), calculated as $R_c = (R_f + R_{eq}) \frac{k}{1-k}$ (Ω).
 - **$C_c$:** Capacitance (F), calculated as $C_c = \frac{C_f \cdot C_{eq}}{C_f + C_{eq}} \frac{1-k}{k}$ (F).
 
