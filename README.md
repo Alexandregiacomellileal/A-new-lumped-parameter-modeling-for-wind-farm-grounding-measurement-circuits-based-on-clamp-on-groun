@@ -99,6 +99,8 @@ The case study's grounding system of Figure 1 was faithfully implemented in the 
 <img width="976" alt="image" src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/f7c000cc-be28-439f-87c1-9a2979e539ae">
 
 
+### Distributed Parameter Model using by ATP;
+
 
 
 ### Results
