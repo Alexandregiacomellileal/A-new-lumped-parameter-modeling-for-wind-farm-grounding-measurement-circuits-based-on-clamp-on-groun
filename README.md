@@ -106,7 +106,7 @@ The distributed parameter modeling used in [Nappu et al. (2022)] [^2] was also e
 
 
 **Figure 6**  
-<img width="300" alt="image" src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/8a5510bd-fee9-4fe0-be74-3659eb722540">
+<img width="300" alt="image" src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/421596fc-e683-49d2-98de-b6b5b5609407">
 
 
 ### Results
