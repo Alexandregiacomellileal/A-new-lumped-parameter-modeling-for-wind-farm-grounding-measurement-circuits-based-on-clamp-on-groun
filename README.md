@@ -106,7 +106,8 @@ In the course of our simulations, we systematically varied the representation of
 
 
 **Figure 6**  
-<img width="300" alt="image" src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/421596fc-e683-49d2-98de-b6b5b5609407">
+<img width="500" alt="image" src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/9b5071a1-5acf-498d-a890-486b03fa927a">
+
 
 
 ### Results
