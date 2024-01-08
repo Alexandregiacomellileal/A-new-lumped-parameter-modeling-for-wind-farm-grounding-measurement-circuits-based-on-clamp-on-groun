@@ -124,13 +124,13 @@ Where:
 This formula provides a measure of the percentage difference between the observed and standard values, allowing for an assessment of the accuracy of the electric circuit model.
 
 **Table 2: Comparison of Meter Readings**   
-| $\rho \ (\Omega \cdot m)$ | $Zmed_{EFM} (\Omega)$ | $Zmed_{LPM} (\Omega)$ [^1]| $Zmed_{LPM} (\Omega)$ (Proposed) | $APE_{LPM}$ (%) [^1]| $APE_{LPM}$  (%) (Proposed)|
-|---------------|------------------------|------------------------|----------------------------------|------------------|------------------------|
-| 100             | 1.26              | 1.97                | 1.38                       | 56.25            | **10.27**              |
-| 300             | 3.65                | 5.22                | 3.82                         | 42.84            | **4.70**               |
-| 5252            | 59.92               | 76.08                | 60.09                          | 26.96            | **0.28**               |
-| 10240           | 116.80            | 149.59              | 117.08                         | 28.07            | **0.24**               |
-| 5252/300          | 5.38           | 6.67               | 5.91                          | 24.08            | **9.88**               |
+| $\rho \ (\Omega \cdot m)$ | $Zmed_{EFM} (\Omega)$ | $Zmed_{DPM} (\Omega)$ [^2]| $Zmed_{LPM} (\Omega)$ [^1]| $Zmed_{LPM} (\Omega)$ (Proposed) | $APE_{LPM}$ (%) [^1]| $APE_{LPM}$  (%) (Proposed)|
+|---------------|------------------------|------------------------|------------------------|----------------------------------|------------------|------------------------|
+| 100             | 1.26              | 1.97                | 1.97                | 1.38                       | 56.25            | **10.27**              |
+| 300             | 3.65              | 1.97                | 5.22                | 3.82                         | 42.84            | **4.70**               |
+| 5252            | 59.92             | 1.97                | 76.08                | 60.09                          | 26.96            | **0.28**               |
+| 10240           | 116.80            | 1.97                | 149.59              | 117.08                         | 28.07            | **0.24**               |
+| 5252/300          | 5.38           | 1.97                | 6.67               | 5.91                          | 24.08            | **9.88**               |
 
 Table 2 illustrates a robust agreement in the outcomes obtained between the proposed lumped-parameter model and the electromagnetic method. When considering homogeneous soil, the model adeptly captures the behavior of the actual measurement circuit across a spectrum of apparent soil resistivity, spanning from the lowest to the highest values encountered in wind farms. Notably, the error approached zero for soils characterized by high resistivities, a common scenario in wind farm environments. The simulation results demonstrate that the proposed solution excels in accurately estimating the low-frequency impedance of the measuring loop. On average, the proposed model exhibits an error rate that is 85.8% lower compared to the model used in [^1].
 
