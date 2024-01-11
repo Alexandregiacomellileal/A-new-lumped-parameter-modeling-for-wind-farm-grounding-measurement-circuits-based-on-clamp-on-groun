@@ -101,14 +101,13 @@ The case study's grounding system of Figure 1 was faithfully implemented in the 
 
 ### Distributed Parameter Model using by ATP
 
-The distributed parameter modeling used in [Nappu et al. (2022)] [^2] was also established and simulated in ATP (Figure 6) for comparative purposes [[DPM.acp](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/blob/main/DPM_model.acp)]. 
+The distributed parameter modeling used in [Nappu et al. (2022)] [^2] was also established and simulated in ATP (Figure 6) for comparative purposes [[DPM.acp](]https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation_alternative/blob/main/dpm_cgm_3_paper_Nappu.acp)]. 
 In the course of our simulations, we systematically varied the representation of horizontal electrodes, employing configurations with 10 and 100 RLC cells per electrode, respectively. Notably, the results obtained at the specific frequency of the test signal demonstrated a remarkable concordance between the two scenarios. At the specific low frequency of your test signal, the system's response might be sufficiently captured with a lower resolution (10 cells per electrode). The increased resolution (100 cells per electrode) not have introduced substantial differences in the outcome at 1572 Hz frequency. While the results align closely at the current frequency, it's essential to recognize that different frequencies or varied conditions may reveal divergent behaviors. Further analysis and potentially exploring additional frequencies or refining simulation parameters could provide a more comprehensive understanding of the system's response.
 
+https://github.com/Alexandregiacomellileal/lumped_parameter_model_experimental_validation_alternative/blob/main/dpm_cgm_3_paper_Nappu.acp
 
 **Figure 6**  
 <img width="700" alt="image" src="https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/121dac6a-2986-4493-a3eb-6feeeb0c8a7d">
-
-
 
 
 ### Results
