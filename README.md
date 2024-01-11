@@ -140,7 +140,7 @@ Table 2 illustrates a robust agreement in the outcomes obtained between the prop
 
 - [[lumped_parameter_model.pdf](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/blob/main/lumped_parameter_model.pdf)] presents the equivalent measurement circuit of the case study modeled by lumped parameters, in which, $R_f$ corresponds to the turbine grounding resistance (Ω), $C_f$ corresponds to the turbine grounding capacitance to earth (F), $R_s$ is the horizontal electrode self-resistance (Ω), $L_p$ is the horizontal electrode self-inductance (H), $R_p$ is the horizontal electrode grounding resistance (Ω), and $C_p$ corresponds to the horizontal electrode capacitance to earth (F) . Furthermore, a resistance $R_c$ (Ω), a capacitance $C_c$ (F) and an adjustment parameter $k$ were added to the lumped-parameter model to represent the impact of mutual resistance between the grounding elements and mitigate distortions due to modeling.
 
-- [[DPM_model.pdf](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/blob/main/DPM_model.pdf)].
+- [[DPM_model.acp](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/blob/main/DPM_model.acp)].
 
 ### Apendice - Understanding $e_{total}$ behavior
 
