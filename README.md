@@ -145,6 +145,8 @@ Table 2 illustrates a robust agreement in the outcomes obtained between the prop
 
 - [[DPM_model.acp](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/blob/main/DPM_model.acp)] presents the equivalent measurement circuit from the case study modeled by distributed parameters and simulated in ATP (Alternative Transients Program).
 
+- [[k_parameter_estimator_SBC.py](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/blob/main/k_parameter_estimator_SBC.py)] : Algorithm in Python to estimate the parameter $k$ in wind farms for a given distance $s$ (m) between the grounding turbine and the horizontal electrodes.
+
 ### Apendice - Understanding $e_{total}$ behavior
 
 As previously stated, the parameter $k$ is determined by the expression $k = (1 - e_{\text{total}})$, where $e_{\text{total}}$ is the sum of the measurement errors induced by two factors. The first factor is the mutual coupling impedance between the turbine grounding and the horizontal electrode, separated by a distance $s$ meters ($e_{\text{mutual}}$). The second factor accounts for the error introduced by representing the horizontal electrode using a pair of hemispherical electrodes in a lumped parameter model ($e_{\text{hemispherical}}$). The parameter $k$ reflects the overall correction, considering both sources of measurement errors. 
