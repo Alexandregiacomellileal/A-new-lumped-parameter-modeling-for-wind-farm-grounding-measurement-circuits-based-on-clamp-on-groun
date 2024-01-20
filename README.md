@@ -1,4 +1,4 @@
-### A new lumped parameter modeling for wind farm grounding measurement circuits based on clamp-on ground meters.
+# A new lumped parameter modeling for wind farm grounding measurement circuits based on clamp-on ground meters.
 
 ![LPM_030124](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/assets/96079504/3421fd54-5b76-458d-a13e-525662ec4fb8)
 
