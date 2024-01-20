@@ -145,7 +145,7 @@ Table 2 illustrates a robust agreement in the outcomes obtained between the prop
 
 - [[DPM_model.acp](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/blob/main/DPM_model.acp)] presents the equivalent measurement circuit from the case study modeled by distributed parameters and simulated in ATP (Alternative Transients Program).
 
-- [[k_parameter_estimator_SBC.py](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/blob/main/k_parameter_estimator_SBC.py)] : Algorithm in Python to estimate the parameter $k$ in wind farms for a given distance $s$ (m) between the grounding turbine and the horizontal electrodes.
+- [[k_parameter_estimator_SBC.py](https://github.com/Alexandregiacomellileal/Lumped-parameter-modeling-for-wind-farm-grounding/blob/main/k_parameter_estimator_SBC.py)] : Python algorithm for estimating k-parameter in wind farms based on the distance (m) between the grounding turbine and horizontal electrodes.
 
 ### Apendice - Understanding $e_{total}$ behavior
 
