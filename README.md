@@ -175,5 +175,8 @@ ________________________________________________________________________________
 Federal University of Technology – Parana (UTFPR) and Institute of Technology for Development (LACTEC)
 
 ________________________________________________________________________________________________________________________
+<p align="center">
+  <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FAlexandregiacomellileal%2FLumped-parameter-modeling-for-wind-farm-grounding&label=Visitors&labelColor=%23697689&countColor=%23ff8a65" alt="Visitors Badge">
+</p>
 
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FAlexandregiacomellileal%2FLumped-parameter-modeling-for-wind-farm-grounding&label=Visitors&labelColor=%23697689&countColor=%23ff8a65)
